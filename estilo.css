@@ -1,0 +1,44 @@
+* {
+	margin: 0px ;
+	padding: 0px ;
+	font-family: 'Electrolize', sans-serif; /*Fuente utilizada en figma*/
+}
+.componente {
+	background-color: #25AE35;
+	width: 100vw; /*Viewport Width*/
+	height: 100vh; /*Viewport Height*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tarjeta {
+	background-color: #00EAFF;
+	padding: 107px 56px;
+	border-radius: 32px;
+	box-shadow: 0px 7px 20px hsla(0, 0%, 0%, 0.25);
+	display: flex;
+	flex-direction: column; /*Cambia el eje principal (X = Horizontal) por (Y = Vertical)*/
+	justify-content: center; /*Eje Principal (Y = Vertical)*/
+	align-items: center; /*Eje Secundario (X = Horizontal*/
+	gap: 32px;
+}
+.nombre {
+ 	
+	color: #EF3F0A;
+	font-size: 40px;
+
+}
+.boton {
+	display: inline-block;
+	background-color: #FFD400;
+	color: #2DAC0D;
+	padding: 16px 32px;
+	border-radius: 16px;
+	font-size: 24px;
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
+}
+.boton:hover {
+	background-color: #ff8400;
+	color: #2DAC0D;
+}
